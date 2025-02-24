@@ -72,7 +72,7 @@ services:
 - The `setup.php` script will automatically create both `datasets/config.inc.php` and `.htaccess` files
 
 ### Manual
-- Copy the configuration sample file `cp config.sample.inc.php datasets/config.inc.php`
+- Copy the configuration sample file `cp ./sample.config.inc.php datasets/config.inc.php`
 - Edit the configuration file `nano datasets/config.inc.php`
 - Create the `.htaccess` file like this:
 ```
